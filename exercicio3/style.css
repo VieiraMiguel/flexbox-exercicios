@@ -12,6 +12,14 @@ main{
   background-color: orange;
 }
 
+.container{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 section{
   height: 100px;
   background-color: steelblue;
@@ -26,13 +34,17 @@ section{
 }
 
 #section-2{
+  flex-grow: 2;
 }
 
 #section-3{
+  flex-grow: 3;
 }
 
 #section-4{
+  flex-basis: 200px;
 }
 
 #section-5{
+  order: -1;
 }
